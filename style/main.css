@@ -2,12 +2,24 @@
 =======Structure======
 ======================*/
 
-header{
-   color: hsl(0, 0%, 100%);
+.header-main {
+    background-color: #CD0000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
-
-main{
-
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    width: 100%;
+}
+.header-top column {
+    display: flex;
+}
+section {
+    width: 100%;
 }
 
 
@@ -102,7 +114,28 @@ a, td, p, button, span{
     font-family: "Roboto";
     text-decoration: none;
 }
+.category {
+    color: red;
+}
+.author {
+    color: grey;
+}
 
+/*====================
+=====N. Destacadas====
+======================*/
+
+.news-bg {
+    background-color: #CD0000;
+}
+
+/*====================
+========Listas========
+======================*/
+
+.header-top ul {
+    list-style: square;
+}
 
 /*====================
 ========Image=========
