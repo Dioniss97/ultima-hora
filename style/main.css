@@ -2,21 +2,9 @@
 =======Structure======
 ======================*/
 
-.header-main {
-    background-color: #CD0000;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-nav ul {
-    display: flex;
-    justify-content: space-between;
-}
 main {
-    width: 100%;
-}
-.header-top column {
-    display: flex;
+    padding:0 10% 0;
+    width: 80%;
 }
 section {
     width: 100%;
@@ -114,28 +102,6 @@ a, td, p, button, span{
     font-family: "Roboto";
     text-decoration: none;
 }
-.category {
-    color: red;
-}
-.author {
-    color: grey;
-}
-
-/*====================
-=====N. Destacadas====
-======================*/
-
-.news-bg {
-    background-color: #CD0000;
-}
-
-/*====================
-========Listas========
-======================*/
-
-.header-top ul {
-    list-style: square;
-}
 
 /*====================
 ========Image=========
@@ -144,3 +110,137 @@ a, td, p, button, span{
 img {
     max-width: 100%;
 }
+
+/*====================
+=======Header=========
+======================*/
+
+.header-top {
+    background-color: #E6E6E6;
+    padding: .4% 5% .4%;
+    width: 90%;
+}
+
+.header-top-featured-news ul, .header-top-editions ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-top-featured-news li {
+    list-style: symbols("-");
+}
+
+.header-top-featured-news li:first-child {
+    color: #CD0000;
+    font-weight: bold;
+}
+/* ----- */
+.header-main {
+    background-color: #CD0000;
+    border-bottom: 0.28em solid #ffffff;
+    padding: 1.2%;
+}
+.header-main-menu-button svg {
+    width: 16%;
+    color: #ffffff;
+    margin-left: 12%;
+}
+.header-main-logo svg path {
+    color: #ffffff;
+}
+.header-main-users {
+    display: flex;
+    margin: 4%;
+    justify-content: center;
+}
+.header-main-users button {
+    border: none;
+    border-radius: 0.2em;
+    height: 2em;
+}
+.header-main-users-login {
+    margin-right: 2%;
+    width: 50%;
+}
+.header-main-users-login button {
+    background-color: #E6E6E6;
+    width: 100%;
+}
+.header-main-users-login>button span {
+
+}
+.header-main-users-login svg {
+    width: 16%;
+}
+.header-main-users-register button {
+    background-color: #ffc700;
+    font-weight: bold;
+    font-style: italic;
+    width: 100%;
+}
+/* ----- */
+.header-menu {
+    background-color: #E6E6E6;
+    border-bottom: 2px solid #CCCCCC;
+    color: #3D3D3D;
+    font-weight: bold;
+    padding: 0.6% 4% 0 ;
+    text-transform: uppercase;
+    width: 92%;
+}
+.header-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-menu li:first-child, .header-menu li:last-child {
+    width: 1.6em;
+    fill: #3D3D3D;
+}
+
+/*====================
+=======Ads============
+======================*/
+
+
+
+/*====================
+======News============
+======================*/
+.home .desktop-two-columns {
+    margin-bottom: 6%;
+}
+
+
+
+/*====================
+=====News Featured====
+======================*/
+
+/* .news-featured {
+    background-color: #CD0000;
+}
+.news-featured>.news-description p {
+    color: #ffffff;
+}
+.news-featured>.news-title h3 {
+    color: #ffffff;
+}
+.news-featured>.news-category span {
+    color: grey;
+    font-weight: bold;
+}
+.news-featured>.news-author span {
+    color: #ffffff;
+} */
+
+/*====================
+========Listas========
+======================*/
+
+/* .news-related ul {
+    list-style: square;
+}
+.header-top-featured-news ul, .header-top-editions ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+border-bottom: 0.2em solid #808080; menu nav
