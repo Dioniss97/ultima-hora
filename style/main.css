@@ -280,15 +280,18 @@ img {
 }
 
 .news-title h3:hover {
-    color: hsl(0, 100%, 50%);
+    color: hsl(0, 100%, 40%);
 }
 
 /*====================
 =====News Featured====
 ======================*/
+.news.featured {
+    background-color: hsl(0, 100%, 40%);
+}
 
 .news.featured .news-category {
-    color: hsl(0, 100%, 50%);
+    color: hsl(0, 68%, 85%);
 }
 
 .news.featured .news-description p {
